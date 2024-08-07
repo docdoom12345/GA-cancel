@@ -2,7 +2,7 @@ name: Long Running Workflow
 on:
   push:
     branches:
-      - master
+      - main
 concurrency:
   group: ${{ github.ref }}
   cancel-in-progress: true
